@@ -7,4 +7,4 @@ fileName = "FIFA_World_Cup/FIFA-2022.txt";
 file = open(fileName, "r")
 
 # Charge les données à partir d'un fichier
-#data = load_data(fileName);
+data = load_data(fileName);
