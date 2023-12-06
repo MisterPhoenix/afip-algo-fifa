@@ -7,3 +7,6 @@ def load_data(fileName):
         
         for ligne in lines:
           print(ligne.strip())
+
+def suppr_entete(fileName):
+   

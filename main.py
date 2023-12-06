@@ -8,3 +8,6 @@ file = open(fileName, "r")
 
 # Charge les données à partir d'un fichier
 data = load_data(fileName);
+
+#suppression de l'entête
+entete = suppr_entete(fileName);
