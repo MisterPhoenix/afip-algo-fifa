@@ -5,10 +5,9 @@ import os
 def load_data(fileName):
     with open(fileName, "r") as File:
         lines = File.readlines()
-        lines = lines[1:]
         
         for ligne in lines:
-          print(ligne.strip())
+          print(ligne)
 
 #fonction suppression de la première ligne
 
